@@ -27,7 +27,7 @@ ark-crypto-primitives = { version = "0.3", features = ["parallel", "rayon", "std
 ark-ec = { version = "0.3", features = ["parallel", "rayon", "std"] }
 ark-ed-on-bw6-761 = { version = "0.3" }
 ark-ed-on-cp6-782 = { version = "0.3", default-features = false }
-ark-ff = { version = "0.3", features = ["parallel", "rayon", "std"] }
+ark-ff = { version = "0.4", features = ["parallel", "rayon", "std"] }
 ark-relations = { version = "0.3", default-features = false, features = ["std", "tracing-subscriber"] }
 ark-serialize = { version = "0.3", features = ["ark-serialize-derive", "derive", "std"] }
 ark-snark = { version = "0.3", default-features = false }
@@ -593,7 +593,7 @@ ark-crypto-primitives = { version = "0.3", features = ["parallel", "rayon", "std
 ark-ec = { version = "0.3", features = ["parallel", "rayon", "std"] }
 ark-ed-on-bw6-761 = { version = "0.3" }
 ark-ed-on-cp6-782 = { version = "0.3", default-features = false }
-ark-ff = { version = "0.3", features = ["parallel", "rayon", "std"] }
+ark-ff = { version = "0.4", features = ["parallel", "rayon", "std"] }
 ark-ff-asm = { version = "0.3", default-features = false }
 ark-ff-macros = { version = "0.3", default-features = false }
 ark-relations = { version = "0.3", default-features = false, features = ["std", "tracing-subscriber"] }
